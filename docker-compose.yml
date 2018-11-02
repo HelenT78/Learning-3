@@ -1,0 +1,28 @@
+version: '3'
+services:
+  php:
+    build:
+      context: ./dockerfiles
+      dockerfile: php.Dockerfile
+    container_name: php-learningl
+    hostname: php
+    volumes:
+      - ./codebase/php:/code
+
+  nodejs:
+      build:
+        context: ./dockerfiles
+        dockerfile: nodejs.Dockerfile
+      container_name: nodejs-learning
+      hostname: nodejs
+      volumes:
+        - ./codebase/nodejs:/code
+
+  python:
+      build:
+        context: ./dockerfiles
+        dockerfile: python.Dockerfile
+      container_name: python-learning
+      hostname: python
+      volumes:
+        - ./codebase/python:/code
