@@ -91,5 +91,40 @@ Istanbul - sevgilim
 Turkce okuyorum
 """)
 
+print ("Oncu dersi")
 
+birinci = "\t Benim adim D Artan yan "
+ikinci_kis = "this sentence\n divided on 2 parts"
+ucuncu_kis = "Ben \\-\\ askerim"
 
+dort_kis = """
+\t* dfgsdf
+\t* asdfgsdf
+\t* asdfsd
+"""
+
+print (birinci)
+print (ikinci_kis)
+print (ucuncu_kis)
+print (dort_kis)
+
+print ("Oncu dersi")
+
+print ("kaç yaşındasın?"),
+yasinda = input()
+print ("ne kadar uzunsun?"),
+uzun = input()
+print ("ne kadar tartılırsın?"),
+tartilir = input()
+
+print ("Sen %r yasindasin %r uzunsun ve %r kilos tartılırsın" %(yasinda, uzun, tartilir))
+
+#import codecs, sys
+#outf = codecs.getwriter('cp866')(sys.stdout, errors = 'replace')
+#sys.stdout = outf
+
+yasinda1 = input('kaç yaşındasın?')
+uzun1 = input('ne kadar uzunsun?')
+tartilir1 = input('ne kadar tartılırsın?')
+
+print ("Sen %r yasindasin, %r uzunsin, %r tartilirsin" %(yasinda1, uzun1, tartilir1))

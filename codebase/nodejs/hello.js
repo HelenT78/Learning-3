@@ -42,28 +42,25 @@ console.log (sprintf("if I will add %d, %d and %d, then I'll get %d", age, heigh
 
 console.log (sprintf("%s's tallness  is %d foots and %d inches", name, height/2.54/12, height%30.48));
 
-console.log ("Exercise 6");
+console.log ("Dokuzcu dersi ");
+days = "\nCuma Cumartesi Pazar Pazartesi Salı Çarşamba Perşembe";
+months = "\nOcak Şubat \nMart Nisan Mayis \nHaziran Temmuz Ağustos \nEylül Ekim Kasım \nOralık ";
 
-//присвоение строки с формат выводом числа 10
-let x = "There are %d types of people";
-    //%10;
-//присвоение значений текстовым строкам
-//let binary = "programming languages";
-//let do_not = "no";
-// то что с %r выводится еще и в кавычках, то что %s - просто буквами
-//let y = "who understand %r, and who - %s", binary, do_not);
-//форматированный вывод
-console.log (sprintf(x));
-//console.log (y);
-//вывод двух строк - добавление второй в качестве форм вывода - строка равна х
-console.log (sprintf("I said %s" , x));
-//console.log (sprintf("and I also said '%s'" %y));
-let hilarious = 0;
-let joke_evaluation = "Isn't it funny? %r";
-console.log (sprintf (joke_evaluation % hilarious));
 
-let w = "It s part of string from the left.....";
-let e = "and that is - from the right";
+console.log ("Oncu dersi");
 
-console.log (w + e);
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question('kaç yaşındasın? ', (answer) => {
+// TODO: Log the answer in a database
+console.log(`Sen ${answer} yasindasin, hanim efendi )`);
+rl.close();
+});
+
+
 
