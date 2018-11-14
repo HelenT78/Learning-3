@@ -1,0 +1,7 @@
+one&&&bir
+two&&&iki
+three&&&uç
+4&&&dort
+5&&&beş
+six&&&altı
+seven&&&yedi
